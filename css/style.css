@@ -1,0 +1,171 @@
+:root{
+    --main-color:#1e202c;
+}
+body{
+    background-color: #1e202c;
+}
+nav{
+    background-color: #1e202c !important;
+    color: #fff;
+}
+
+nav .navbar-brand h1{
+font-size:16px ;
+font-weight:700 ;
+line-height: normal;
+color: #fff;
+}
+nav .navbar-brand small{
+    font-size:10px ;
+font-weight:300 ;
+line-height: 15px;
+color: #fff;
+}
+.nav-link{
+    color:   #fff;
+    margin-left: 30px;
+border: transparent 2px solid;
+border-radius: 50px;
+
+   
+  
+}
+.nav-link.active{
+    color: #44cdff !important;
+    border: #44cdff 2px solid;
+border-radius: 50px;
+
+}
+ .nav-link:hover{
+border: #44cdff 2px solid;
+border-radius: 50px;
+color: #44cdff !important;
+
+}
+.imggg{
+    background-image: url(../imges/banner.png);
+  background-repeat: no-repeat;
+}
+
+
+
+ .search{
+    width:100%;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    border: none;
+    color: #fff;
+ }
+ .search:focus{
+   border:none;
+   box-shadow: none !important;
+ }
+
+ #searchBtn{
+    position: absolute;
+    top: 29px;
+    right: 5px;
+    bottom: 27px;
+    border-radius: 50px;
+    padding: 0 30px;
+    color: #fff;
+}
+
+ .body{
+    background-color: #323544;
+ }
+ .head{
+    background-color: #2d313d;
+    
+ }
+ .head div{
+    font-weight:400 ;
+    font-size: 14px;
+    line-height:21px ;
+ }
+ .town{
+    font-weight:400 ;
+    font-size: 18px;
+    line-height:27px ;
+ }
+.degree{
+    font-weight:700 ;
+    font-size: 90px;
+    line-height:135px ;
+}
+.body2{
+    background-color: #262a36;
+
+}
+.head2{
+    background-color: #222430;
+    color: #fff;
+ }
+ .head2 div{
+    font-weight:400 ;
+    font-size: 14px;
+    line-height:21px ;
+ }
+ .body2 .degree{
+    font-weight:700 ;
+    font-size: 24px;
+    line-height:36px ; 
+ }
+ .body3{
+    background-color: #323544;
+
+}
+.head3{
+    background-color: #2d313d;
+    color: #fff;
+ }
+ .head3 div{
+    font-weight:400 ;
+    font-size: 14px;
+    line-height:21px ;
+ }
+ .body3 .degree{
+    font-weight:700 ;
+    font-size: 24px;
+    line-height:36px ; 
+ }
+
+ footer{
+    background-color: #262a36;
+ }
+
+ footer .searchfoot{
+    
+    border-radius: 50px;
+    background-color: var(--main-color);
+    border: none;
+    color: #fff;
+   
+    
+ }
+ footer .searchfoo:focus {
+   border: none;
+      outline: none;   
+ }
+
+ footer .searchBtn{
+    position: absolute;
+    top: 32px;
+    right: 20px;
+    border-radius: 50px;
+    padding: 0 30px;
+    color: #fff;
+}
+footer .icon a i{
+   
+    background-color: var(--main-color);
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+footer .icon a i:hover{
+    background-color: rgb(6, 6, 148);
+    color:#fff;
+}
